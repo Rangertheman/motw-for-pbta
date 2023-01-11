@@ -213,17 +213,6 @@
          "flags":{
             
          }
-      },
-      {
-         "label":"OTHER MOVES",
-         "type":"Item",
-         "name":"other-moves",
-         "path":"packs/other-moves.db",
-         "system":"pbta",
-         "private":false,
-         "flags":{
-            
-         }
       }
    ]
 }
