@@ -10,20 +10,9 @@
   color: black;
 }
 
-.pbta.sheet .sheet-attributes .cell--stats .stat {
-  flex: 0 0 calc(45% - 10px);
-}
-
-.pbta.sheet .sheet-attributes .cell--stats .stat .cell__title {
-  width: 50%;
-  min-width: 50%;
-  border: none;
-  margin-bottom: 0;
-}
-
 .pbta.sheet .sheet-attributes .cell--stats .stat, .pbta.sheet .tabs .item {
-  background: #999999;
-  border-color: #999999;
+  background: #666666;
+  border-color: #666666;
 }
 
 .pbta.sheet .sheet-attributes .cell--stats .stat :is(.cell__title, .stat-icon), .pbta.sheet .tabs .item {
@@ -45,12 +34,12 @@
 
 .pbta.sheet :is(.cell__title, .tabs, input)  {
   color: black;
-  border-color: #999999;
+  border-color: #666666;
 }
 
 .pbta.sheet .tabs .item:is(:hover, :focus) {
   border-color: white;
-  border-bottom-color: #999999;
+  border-bottom-color: #666666;
 }
 
 .pbta.sheet .cell__title button:hover {
@@ -59,8 +48,8 @@
 
 .pbta.sheet .tabs .item.active {
   background: white;
-  color: #8e2231;
-  border-bottom: 2px solid #999999;
+  color: #999999;
+  border-bottom: 2px solid #666666;
 }
 
 ::-webkit-scrollbar-thumb {
