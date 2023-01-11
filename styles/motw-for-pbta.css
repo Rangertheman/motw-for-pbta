@@ -6,7 +6,7 @@
 }
 
 .pbta.sheet:is(.actor, .item) section.window-content {
-  background-color: #c1ae97;
+  background-color: #e6e6e6;
   color: black;
 }
 
@@ -22,8 +22,8 @@
 }
 
 .pbta.sheet .sheet-attributes .cell--stats .stat, .pbta.sheet .tabs .item {
-  background: #8e2231;
-  border-color: #8e2231;
+  background: #999999;
+  border-color: #999999;
 }
 
 .pbta.sheet .sheet-attributes .cell--stats .stat :is(.cell__title, .stat-icon), .pbta.sheet .tabs .item {
@@ -45,12 +45,12 @@
 
 .pbta.sheet :is(.cell__title, .tabs, input)  {
   color: black;
-  border-color: #8e2231;
+  border-color: #999999;
 }
 
 .pbta.sheet .tabs .item:is(:hover, :focus) {
   border-color: white;
-  border-bottom-color: #8e2231;
+  border-bottom-color: #999999;
 }
 
 .pbta.sheet .cell__title button:hover {
@@ -60,7 +60,7 @@
 .pbta.sheet .tabs .item.active {
   background: white;
   color: #8e2231;
-  border-bottom: 2px solid #8e2231;
+  border-bottom: 2px solid #999999;
 }
 
 ::-webkit-scrollbar-thumb {
