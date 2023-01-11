@@ -1,6 +1,6 @@
 export const configSheet = async () => {
 
-   // pass MotW sheet object to sheetConfig
+   // pass the MotW sheet object to sheetConfig
 
    game.pbta.sheetConfig = {
     "rollFormula": "2d6",

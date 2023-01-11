@@ -14,10 +14,7 @@ To install and use this module, simply find it and download it in the **Install 
 
 * Uninstall
 
-When removing this module from your game world, the settings in the
-"System Settings" page will remain. You can change them individually
-or use the "Reset to Defaults" button at the bottom of the page to
-revert everything back to it's default state in the PbtA system.
+When removing this module from your game world, the settings in the "System Settings" page will remain. You can change them individually or use the "Reset to Defaults" button at the bottom of the page to revert everything back to it's default state in the PbtA system.
 
 ### Dependencies
 
@@ -38,7 +35,7 @@ MIT License - Copyright (c) 2023 Rangertheman/gonzaPaEst
 
 ## Feedback
 
-* Please, any suggestion or feedback is greatly appreciated. Use the issue system.
+* Any suggestion or feedback is greatly appreciated. Please use the issue system.
 
 ## Versions
 
