@@ -1,0 +1,8 @@
+{
+    "motw": {
+        "Settings": {
+            "Title": "Override Setting Selections",
+            "Hint": "The Monster of the Week module automatically hides all PbtA sheet options (formula, forward, ongoing, etc.). If you want to make your own selections, please check this option off."
+        }
+    }
+}

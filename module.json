@@ -1,0 +1,284 @@
+{
+   "id":"motw-for-pbta",
+   "name":"motw-for-pbta",
+   "title":"Monster of the Week (PbtA)",
+   "description":"Monster of the Week custom sheet and compendium module, to be used with Asacolips' Powered by the Apocalypse system",
+   "url":"https://github.com/Rangertheman/motw-for-pbta",
+   "manifest":"https://raw.githubusercontent.com/Rangertheman/motw-for-pbta/master/module.json",
+   "download":"https://github.com/Rangertheman/motw-for-pbta/archive/master.zip",
+   "authors":[
+      {
+         "name":"Krister Persson (Rangertheman)/gonzaPaEst",
+         "discord":"Krister Persson#4927/gonzaPaEst (he/him/él)#1106",
+         "flags":{
+            
+         }
+      }
+   ],
+   "version":"0.0.9",
+   "compatibility":{
+      "minimum":"10",
+      "verified":"10.290"
+   },
+   "relationships":{
+      "systems":[
+         {
+            "id":"pbta",
+            "type":"system",
+            "manifest":"https://asacolips-artifacts.s3.amazonaws.com/pbta/0.7.0/system.json",
+            "compatibility":{
+               "verified":"0.7.0"
+            }
+         }
+      ]
+   },
+   "esmodules":[
+      "./module/motw-for-pbta.mjs"
+   ],
+   "styles":[
+      "styles/motw-for-pbta.css"
+   ],
+   "languages":[
+      {
+         "lang":"en",
+         "name":"English",
+         "path":"./languages/en.json",
+         "flags":{
+            
+         }
+      }
+   ],
+   "packs":[
+      {
+         "label":"BASIC MOVES",
+         "type":"Item",
+         "name":"basic-moves",
+         "path":"packs/basic-moves.db",
+         "system":"pbta",
+         "private":false,
+         "flags":{
+            
+         }
+      },
+      {
+         "label":"PLAYBOOKS",
+         "type":"Item",
+         "name":"playbooks",
+         "path":"packs/playbooks.db",
+         "system":"pbta",
+         "private":false,
+         "flags":{
+            
+         }
+      },
+      {
+         "label":"OTHER",
+         "type":"Item",
+         "name":"other",
+         "path":"packs/other.db",
+         "system":"pbta",
+         "private":false,
+         "flags":{
+            
+         }
+      },
+      {
+         "label":"ARMOUR",
+         "type":"Item",
+         "name":"armour",
+         "path":"packs/armour.db",
+         "system":"pbta",
+         "private":false,
+         "flags":{
+            
+         }
+      },
+      {
+         "label":"WEAPONS",
+         "type":"Item",
+         "name":"weapons",
+         "path":"packs/weapons.db",
+         "system":"pbta",
+         "private":false,
+         "flags":{
+            
+         }
+      },
+      {
+         "label":"THE CHOSEN",
+         "type":"Item",
+         "name":"the-chosen",
+         "path":"packs/the-chosen.db",
+         "system":"pbta",
+         "private":false,
+         "flags":{
+            
+         }
+      },
+      {
+         "label":"THE CROOKED",
+         "type":"Item",
+         "name":"the-crooked",
+         "path":"packs/the-crooked.db",
+         "system":"pbta",
+         "private":false,
+         "flags":{
+            
+         }
+      },
+      {
+         "label":"TAGS",
+         "type":"Item",
+         "name":"tags",
+         "path":"packs/tags.db",
+         "system":"pbta",
+         "private":false,
+         "flags":{
+            
+         }
+      },
+      {
+         "label":"THE DIVINE",
+         "type":"Item",
+         "name":"the-divine",
+         "path":"packs/the-divine.db",
+         "system":"pbta",
+         "private":false,
+         "flags":{
+            
+         }
+      },
+      {
+         "label":"THE EXPERT",
+         "type":"Item",
+         "name":"the-expert",
+         "path":"packs/the-expert.db",
+         "system":"pbta",
+         "private":false,
+         "flags":{
+            
+         }
+      },
+      {
+         "label":"THE SPOOKY",
+         "type":"Item",
+         "name":"the-spooky",
+         "path":"packs/the-spooky.db",
+         "system":"pbta",
+         "private":false,
+         "flags":{
+            
+         }
+      },
+      {
+         "label":"THE FLAKE",
+         "type":"Item",
+         "name":"the-flake",
+         "path":"packs/the-flake.db",
+         "system":"pbta",
+         "private":false,
+         "flags":{
+            
+         }
+      },
+      {
+         "label":"THE INITIATE",
+         "type":"Item",
+         "name":"the-initiate",
+         "path":"packs/the-initiate.db",
+         "system":"pbta",
+         "private":false,
+         "flags":{
+            
+         }
+      },
+      {
+         "label":"THE MONSTROUS",
+         "type":"Item",
+         "name":"the-monstrous",
+         "path":"packs/the-monstrous.db",
+         "system":"pbta",
+         "private":false,
+         "flags":{
+            
+         }
+      },
+      {
+         "label":"THE MUNDANE",
+         "type":"Item",
+         "name":"the-mundane",
+         "path":"packs/the-mundane.db",
+         "system":"pbta",
+         "private":false,
+         "flags":{
+            
+         }
+      },
+      {
+         "label":"THE PROFESSIONAL",
+         "type":"Item",
+         "name":"the-professional",
+         "path":"packs/the-professional.db",
+         "system":"pbta",
+         "private":false,
+         "flags":{
+            
+         }
+      },
+      {
+         "label":"THE SPELL-SLINGER",
+         "type":"Item",
+         "name":"the-spell-slinger",
+         "path":"packs/the-spell-slinger.db",
+         "system":"pbta",
+         "private":false,
+         "flags":{
+            
+         }
+      },
+      {
+         "label":"THE WRONGED",
+         "type":"Item",
+         "name":"the-wronged",
+         "path":"packs/the-wronged.db",
+         "system":"pbta",
+         "private":false,
+         "flags":{
+            
+         }
+      },
+      {
+         "label":"CUSTOM MOVES",
+         "type":"Item",
+         "name":"custom-moves",
+         "path":"packs/custom-moves.db",
+         "system":"pbta",
+         "private":false,
+         "flags":{
+            
+         }
+      },
+      {
+         "label":"EXTRA PLAYBOOKS",
+         "type":"Item",
+         "name":"extra-playbooks",
+         "path":"packs/extra-playbooks.db",
+         "system":"pbta",
+         "private":false,
+         "flags":{
+            
+         }
+      },
+      {
+         "label":"GEAR",
+         "type":"Item",
+         "name":"gear",
+         "path":"packs/gear.db",
+         "system":"pbta",
+         "private":false,
+         "flags":{
+            
+         }
+      }
+   ]
+}
