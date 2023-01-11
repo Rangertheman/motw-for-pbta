@@ -11,8 +11,8 @@
 }
 
 .pbta.sheet .sheet-attributes .cell--stats .stat, .pbta.sheet .tabs .item {
-  background: #666666;
-  border-color: #666666;
+  background: black;
+  border-color: black;
 }
 
 .pbta.sheet .sheet-attributes .cell--stats .stat :is(.cell__title, .stat-icon), .pbta.sheet .tabs .item {
@@ -34,12 +34,12 @@
 
 .pbta.sheet :is(.cell__title, .tabs, input)  {
   color: black;
-  border-color: #666666;
+  border-color: black;
 }
 
 .pbta.sheet .tabs .item:is(:hover, :focus) {
   border-color: white;
-  border-bottom-color: #666666;
+  border-bottom-color: black;
 }
 
 .pbta.sheet .cell__title button:hover {
@@ -48,8 +48,8 @@
 
 .pbta.sheet .tabs .item.active {
   background: white;
-  color: #999999;
-  border-bottom: 2px solid #666666;
+  color: black;
+  border-bottom: 2px solid black;
 }
 
 ::-webkit-scrollbar-thumb {
