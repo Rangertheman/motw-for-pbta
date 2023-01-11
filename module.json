@@ -30,6 +30,17 @@
                "verified":"0.7.0"
             }
          }
+      ],
+      "requires":[
+         {
+            "id":"compendium-folders",
+            "type":"module",
+            "manifest":"https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/09x-update/module.json",
+            "compatibility":{
+               "minimum":"2.4.6",
+               "verified":"2.5.2"
+            }
+         }
       ]
    },
    "esmodules":[

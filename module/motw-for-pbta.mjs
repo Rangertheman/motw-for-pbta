@@ -25,7 +25,7 @@ Hooks.once('pbtaSheetConfig', () => {
    // Disable the sheet config form.
    game.settings.set('pbta', 'sheetConfigOverride', true);
 
-   // Replace the game.pbta.sheetConfig with FWRPG version.
+   // Replace the game.pbta.sheetConfig with MotW version.
    configSheet();
 
 });

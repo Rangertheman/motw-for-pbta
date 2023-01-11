@@ -1,6 +1,6 @@
 export const configSheet = async () => {
 
-   // pass FWRPG sheet object to sheetConfig
+   // pass MotW sheet object to sheetConfig
 
    game.pbta.sheetConfig = {
       {
@@ -279,7 +279,7 @@ export const configSheet = async () => {
 }
 
    // check if users wants to override settings; if not, hide all PbtA sheet options
-   let overrideSettings = await game.settings.get('fwrpg-for-pbta', 'settings-override');
+   let overrideSettings = await game.settings.get('motw-for-pbta', 'settings-override');
 
    if (!overrideSettings) {
       await game.settings.set('pbta', 'advForward', true);
