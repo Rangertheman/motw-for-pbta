@@ -83,39 +83,6 @@
          }
       },
       {
-         "label":"OTHER",
-         "type":"Item",
-         "name":"other",
-         "path":"packs/other.db",
-         "system":"pbta",
-         "private":false,
-         "flags":{
-            
-         }
-      },
-      {
-         "label":"ARMOUR",
-         "type":"Item",
-         "name":"armour",
-         "path":"packs/armour.db",
-         "system":"pbta",
-         "private":false,
-         "flags":{
-            
-         }
-      },
-      {
-         "label":"WEAPONS",
-         "type":"Item",
-         "name":"weapons",
-         "path":"packs/weapons.db",
-         "system":"pbta",
-         "private":false,
-         "flags":{
-            
-         }
-      },
-      {
          "label":"THE CHOSEN",
          "type":"Item",
          "name":"the-chosen",
@@ -131,17 +98,6 @@
          "type":"Item",
          "name":"the-crooked",
          "path":"packs/the-crooked.db",
-         "system":"pbta",
-         "private":false,
-         "flags":{
-            
-         }
-      },
-      {
-         "label":"TAGS",
-         "type":"Item",
-         "name":"tags",
-         "path":"packs/tags.db",
          "system":"pbta",
          "private":false,
          "flags":{
@@ -259,32 +215,10 @@
          }
       },
       {
-         "label":"CUSTOM MOVES",
+         "label":"OTHER MOVES",
          "type":"Item",
-         "name":"custom-moves",
-         "path":"packs/custom-moves.db",
-         "system":"pbta",
-         "private":false,
-         "flags":{
-            
-         }
-      },
-      {
-         "label":"EXTRA PLAYBOOKS",
-         "type":"Item",
-         "name":"extra-playbooks",
-         "path":"packs/extra-playbooks.db",
-         "system":"pbta",
-         "private":false,
-         "flags":{
-            
-         }
-      },
-      {
-         "label":"GEAR",
-         "type":"Item",
-         "name":"gear",
-         "path":"packs/gear.db",
+         "name":"other-moves",
+         "path":"packs/other-moves.db",
          "system":"pbta",
          "private":false,
          "flags":{
