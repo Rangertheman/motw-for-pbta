@@ -11,8 +11,8 @@
 }
 
 .pbta.sheet .sheet-attributes .cell--stats .stat, .pbta.sheet .tabs .item {
-  background: black;
-  border-color: black;
+  background: #333333;
+  border-color: #333333;
 }
 
 .pbta.sheet .sheet-attributes .cell--stats .stat :is(.cell__title, .stat-icon), .pbta.sheet .tabs .item {
