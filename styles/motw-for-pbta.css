@@ -8,11 +8,13 @@
 .pbta.sheet:is(.actor, .item) section.window-content {
   background-color: #e6e6e6;
   color: black;
+  background-image: url("./img/Paper_bg.jfif");
+  background-repeat: repeat;
 }
 
 .pbta.sheet .sheet-attributes .cell--stats .stat, .pbta.sheet .tabs .item {
-  background-image: url("./img/Paper_bg.jfif");
-  background-repeat: repeat;
+  background: #333333;
+  border-color: #333333;
 }
 
 .pbta.sheet .sheet-attributes .cell--stats .stat :is(.cell__title, .stat-icon), .pbta.sheet .tabs .item {
