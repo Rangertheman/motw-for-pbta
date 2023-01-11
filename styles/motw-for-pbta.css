@@ -8,7 +8,7 @@
 .pbta.sheet:is(.actor, .item) section.window-content {
   background-color: #e6e6e6;
   color: black;
-  background-image: url("./img/Paper_bg.jfif");
+  background-image: url("./img/paper_bgimg.jfif");
   background-repeat: repeat;
 }
 
