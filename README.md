@@ -27,7 +27,7 @@ The following Foundry VTT game system must be installed: [Powered by the Apocaly
 
 * Monster of the Week is created by Michael Sands. Monster of the Week is copyrighted by Evil Hat Productions, LLC and Generic Games.
 
-* This module has been made possible with the kind and express permission of Michael Sands (Monster of the Week) and Asacolips (PbtA system).   
+* This module has been made possible with the kind and express permission of Michael Sands. 
 * The Powered by the Apocalypse system for Foundry VTT is created and maintained by Asacolips.
 
 ## Licensing
