@@ -38,7 +38,7 @@
             "manifest":"https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/09x-update/module.json",
             "compatibility":{
                "minimum":"2.5.0",
-               "verified":"2.5.6"
+               "verified":"2.5.7"
             }
          }
       ]
@@ -127,17 +127,6 @@
          }
       },
       {
-         "label":"THE SPOOKY",
-         "type":"Item",
-         "name":"the-spooky",
-         "path":"packs/the-spooky.db",
-         "system":"pbta",
-         "private":false,
-         "flags":{
-            
-         }
-      },
-      {
          "label":"THE FLAKE",
          "type":"Item",
          "name":"the-flake",
@@ -197,6 +186,17 @@
          "type":"Item",
          "name":"the-spell-slinger",
          "path":"packs/the-spell-slinger.db",
+         "system":"pbta",
+         "private":false,
+         "flags":{
+            
+         }
+      },
+      {
+         "label":"THE SPOOKY",
+         "type":"Item",
+         "name":"the-spooky",
+         "path":"packs/the-spooky.db",
          "system":"pbta",
          "private":false,
          "flags":{
