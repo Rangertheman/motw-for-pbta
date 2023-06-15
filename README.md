@@ -39,6 +39,11 @@ MIT License - Copyright (c) 2023 Rangertheman/gonzaPaEst
 
 ## Versions
 
+Version 0.1.1
+
+* This will most likely be the last release for Foundry V10.
+* Added a 'tag' folder to the compendium packs.
+
 Version 0.1.0
 
 * Initial release

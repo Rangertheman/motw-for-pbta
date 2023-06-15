@@ -9,7 +9,7 @@
    "authors":[
       {
          "name":"Krister Persson (Rangertheman)/gonzaPaEst",
-         "discord":"Krister Persson#4927/gonzaPaEst (he/him/él)#1106",
+         "discord":"rangertheman/gonzaPaEst (he/him/él)#1106",
          "flags":{
             
          }
@@ -18,7 +18,8 @@
    "version":"0.1.0",
    "compatibility":{
       "minimum":"10",
-      "verified":"10.291"
+      "verified":"10.291",
+      "maximum":10.291
    },
    "relationships":{
       "systems":[
@@ -27,7 +28,7 @@
             "type":"system",
             "manifest":"https://asacolips-artifacts.s3.amazonaws.com/pbta/0.7.0/system.json",
             "compatibility":{
-               "verified":"0.7.0"
+               "verified":"0.7.1"
             }
          }
       ],
@@ -76,6 +77,17 @@
          "type":"Item",
          "name":"playbooks",
          "path":"packs/playbooks.db",
+         "system":"pbta",
+         "private":false,
+         "flags":{
+            
+         }
+      },
+      {
+         "label":"TAGS",
+         "type":"Item",
+         "name":"tags",
+         "path":"packs/tags.db",
          "system":"pbta",
          "private":false,
          "flags":{
