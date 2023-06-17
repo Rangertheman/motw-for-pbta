@@ -31,7 +31,7 @@ The following Foundry VTT game system must be installed: [Powered by the Apocaly
 
 This module is for use with with Monster of the Week by Michael Sands and is used under Generic Games' [Third Party License](https://genericgames.co.nz/third_party_policy/).
 
-MIT License - Copyright (c) 2023 Rangertheman/gonzaPaEst
+MIT License - Copyright (c) 2023 Rangertheman
 
 ## Feedback
 

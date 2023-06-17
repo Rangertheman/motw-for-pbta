@@ -13,9 +13,7 @@ Hooks.once('init', () => {
       scope: 'world',
       config: true,
       hint: game.i18n.localize("motw.Settings.Hint"),
-      onChange: () => setTimeout(() => {
-         location.reload();
-      }, 500)
+      requiresReload: true
    });
 
 })
