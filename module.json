@@ -18,31 +18,19 @@
    "version":"0.1.1",
    "compatibility":{
       "minimum":"10",
-      "verified":"10.291",
-      "maximum":10.291
+      "verified":"10.291"
    },
    "relationships":{
       "systems":[
          {
             "id":"pbta",
             "type":"system",
-            "manifest":"https://asacolips-artifacts.s3.amazonaws.com/pbta/0.7.0/system.json",
+            "manifest":"https://asacolips-artifacts.s3.amazonaws.com/pbta/0.7.1/system.json",
             "compatibility":{
                "verified":"0.7.1"
             }
          }
-      ],
-      "requires":[
-         {
-            "id":"compendium-folders",
-            "type":"module",
-            "manifest":"https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/09x-update/module.json",
-            "compatibility":{
-               "minimum":"2.5.0",
-               "verified":"2.5.7"
-            }
-         }
-      ]
+      ]      
    },
    "esmodules":[
       "./module/motw-for-pbta.mjs"
