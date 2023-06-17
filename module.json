@@ -4,18 +4,18 @@
    "title":"Monster of the Week (PbtA)",
    "description":"Monster of the Week custom sheet and compendium module, to be used with Asacolips' Powered by the Apocalypse system.",
    "url":"https://github.com/Rangertheman/motw-for-pbta",
-   "manifest":"https://raw.githubusercontent.com/Rangertheman/motw-for-pbta/master/module.json",
-   "download":"https://github.com/Rangertheman/motw-for-pbta/archive/master.zip",
+   "manifest":"https://github.com/Rangertheman/motw-for-pbta/tree/0.1.2/module.json",
+   "download":"https://github.com/Rangertheman/motw-for-pbta/releases/tag/0.1.2/module.zip",
    "authors":[
       {
-         "name":"Krister Persson (Rangertheman)/gonzaPaEst",
-         "discord":"rangertheman/gonzaPaEst (he/him/él)#1106",
+         "name":"Krister Persson (Rangertheman)",
+         "discord":"rangertheman",
          "flags":{
             
          }
       }
    ],
-   "version":"0.1.1",
+   "version":"0.1.2",
    "compatibility":{
       "minimum":"10",
       "verified":"10.291"
