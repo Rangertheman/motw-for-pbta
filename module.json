@@ -15,7 +15,7 @@
          }
       }
    ],
-   "version":"0.1.2",
+   "version":"0.1.3",
    "compatibility":{
       "minimum":"10",
       "verified":"10.291"
@@ -30,7 +30,18 @@
                "verified":"0.7.1"
             }
          }
-      ]      
+      ],
+      "requires":[
+         {
+            "id":"compendium-folders",
+            "type":"module",
+            "manifest":"https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/09x-update/module.json",
+            "compatibility":{
+               "minimum":"2.5.0",
+               "verified":"2.5.7"
+            }
+         }
+      ]
    },
    "esmodules":[
       "./module/motw-for-pbta.mjs"
