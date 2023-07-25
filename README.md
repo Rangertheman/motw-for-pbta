@@ -35,4 +35,5 @@ MIT License - Copyright (c) 2023 Rangertheman
 
 ## Feedback
 
+* Despite the approval, please note that this is not an official product of Michael Sands, Evil Hat or Generic Games. I assume full responsibility for its functionality.
 * Any suggestion or feedback is greatly appreciated. Please use the issue system.
