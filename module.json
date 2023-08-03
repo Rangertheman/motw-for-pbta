@@ -294,7 +294,7 @@
          "label":"WEIRD BASIC MOVES [ToM]",
          "type":"Item",
          "name":"weird-basic-moves-tom",
-         "path":"weird-basic-moves-tom.db",
+         "path":"packs/weird-basic-moves-tom.db",
          "system":"pbta",
          "private":false,
          "flags":{
@@ -305,7 +305,7 @@
          "label":"SPECIAL MOVES [ToM]",
          "type":"Item",
          "name":"special-moves-tom",
-         "path":"special-moves-tom.db",
+         "path":"packs/special-moves-tom.db",
          "system":"pbta",
          "private":false,
          "flags":{
