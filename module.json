@@ -3,8 +3,8 @@
    "title":"Monster of the Week (PbtA)",
    "description":"Monster of the Week custom sheet and compendium module, to be used with Asacolips' Powered by the Apocalypse system.",
    "url":"https://github.com/Rangertheman/motw-for-pbta",
-   "manifest":"https://raw.githubusercontent.com/Rangertheman/motw-for-pbta/0.2.1/module.json",
-   "download":"https://github.com/Rangertheman/motw-for-pbta/archive/refs/tags/0.2.1.zip",
+   "manifest":"https://raw.githubusercontent.com/Rangertheman/motw-for-pbta/0.3.0/module.json",
+   "download":"https://github.com/Rangertheman/motw-for-pbta/archive/refs/tags/0.3.0.zip",
    "authors":[
       {
          "name":"Krister Persson (Rangertheman)",
@@ -14,7 +14,7 @@
          }
       }
    ],
-   "version":"0.2.1",
+   "version":"0.3.0",
    "compatibility":{
       "minimum":"11",
       "verified":"11.306"
@@ -218,6 +218,94 @@
          "type":"Item",
          "name":"the-wronged",
          "path":"packs/the-wronged.db",
+         "system":"pbta",
+         "private":false,
+         "flags":{
+            
+         }
+      },
+      {
+         "label":"THE GUMSHOE [ToM]",
+         "type":"Item",
+         "name":"the-gumshoe-tom",
+         "path":"packs/the-gumshoe-tom.db",
+         "system":"pbta",
+         "private":false,
+         "flags":{
+            
+         }
+      },
+      {
+         "label":"THE HEX [ToM]",
+         "type":"Item",
+         "name":"the-hex-tom",
+         "path":"packs/the-hex-tom.db",
+         "system":"pbta",
+         "private":false,
+         "flags":{
+            
+         }
+      },
+      {
+         "label":"THE PARAROMANTIC [ToM]",
+         "type":"Item",
+         "name":"the-pararomantic-tom",
+         "path":"packs/the-pararomantic-tom.db",
+         "system":"pbta",
+         "private":false,
+         "flags":{
+            
+         }
+      },
+      {
+         "label":"THE SEARCHER [ToM]",
+         "type":"Item",
+         "name":"the-searcher-tom",
+         "path":"packs/the-searcher-tom.db",
+         "system":"pbta",
+         "private":false,
+         "flags":{
+            
+         }
+      },
+      {
+         "label":"THE SNOOP [HE]",
+         "type":"Item",
+         "name":"the-snoop-he",
+         "path":"packs/the-snoop-he.db",
+         "system":"pbta",
+         "private":false,
+         "flags":{
+            
+         }
+      },
+      {
+         "label":"THE SPOOKTACULAR [HE]",
+         "type":"Item",
+         "name":"the-spooktacular-he",
+         "path":"packs/the-spooktacular-he.db",
+         "system":"pbta",
+         "private":false,
+         "flags":{
+            
+         }
+      },
+      {
+         "label":"WEIRD BASIC MOVES [ToM]",
+         "type":"Item",
+         "name":"weird-basic-moves-tom",
+         "path":"weird-basic-moves-tom.db",
+         "system":"pbta",
+         "private":false,
+         "flags":{
+            
+         }
+      },
+      {
+         "label":"SPECIAL MOVES [ToM]",
+         "type":"Item",
+         "name":"special-moves-tom",
+         "path":"special-moves-tom.db",
          "system":"pbta",
          "private":false,
          "flags":{
