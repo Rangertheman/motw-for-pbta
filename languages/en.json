@@ -1,8 +1,122 @@
 {
-    "motw": {
-        "Settings": {
-            "Title": "Override Setting Selections",
-            "Hint": "The Monster of the Week module automatically hides all PbtA sheet options (formula, forward, ongoing, roll mode). If you want to make your own selections, please check this option off."
-        }
-    }
+  "motw": {
+    "Settings": {
+      "Title": "Override Setting Selections",
+      "Hint": "The Monster of the Week module automatically hides all PbtA sheet options (formula, forward, ongoing, roll mode). If you want to make your own selections, please check this option off."
+    },
+    "rollResults": {
+			"success": "Success!",
+			"partial": "Partial success",
+			"failure": "Miss..."
+    },
+    "character": {
+      "stats": {
+        "cool": "Cool",
+        "tough": "Tough",
+        "charm": "Charm",
+        "sharp": "Sharp",
+        "weird": "Weird"
+      },
+			"attrTop": {
+				"harm": {
+					"label": "Harm",
+					"description": "When you reach 4 or more, mark unstable."
+				},
+				"unstable": {
+					"label": "Unstable",
+					"description": "(Unstable injuries will worsen as time passes)",
+					"checkboxLabel": "Unstable Injuries"
+				},
+				"luck": {
+					"label": "Luck",
+					"description": "Mark luck to change a roll to 12 or avoid all harm."
+				},
+				"xp": {
+					"label": "Experience",
+					"description": "When you roll a miss, or when a move says to, mark Xp."
+				}
+			},
+			"attrLeft": {
+				"armour": {
+					"label": "Armour",
+					"description": "Armour reduces harm suffered by the armour rating."
+				},
+				"luckspecial": {
+					"label": "Effet Special Chance"
+				},
+				"look": {
+					"label": "Look"
+				},
+				"improvements": {
+					"label": "Improvements"
+				},
+				"advancedimprovements": {
+					"label": "Advanced Improvements"
+				}
+			},
+			"moveTypes": {
+				"basic": {
+					"label": "Basic Moves"
+				},
+				"class": {
+					"label": "Playbook Moves"
+				}
+			},
+			"equipmentTypes": {
+				"gear": {
+					"label": "Gear"
+				},
+				"weapon": {
+					"label": "Weapons"
+				},
+				"transport": {
+					"label": "Transport"
+				},
+				"armour": {
+					"label": "Armour"
+				}
+			}
+    },
+		"npc": {		
+			"attrTop": {
+				"harm": {
+					"label": "Harm Capacity"
+				},
+				"armour": {
+					"label": "Armour"
+				},
+				"type": {
+					"label": "NPC Type",
+					"option": {
+						"monster": "Monster",
+						"minion": "Minion",
+						"bystander": "Bystander",
+						"location": "Location"
+					}
+				}
+			},
+			"attrLeft": {
+				"powers": {
+					"label": "Drive"
+				},
+				"attacks": {
+					"label": "Attacks"
+				},
+				"weakness": {
+					"label": "Weakness"
+				},
+				"desc": {
+					"label": "Description"
+				},
+				"motivation": {
+					"label": "Motivation"
+				}
+			},
+			"moveTypes": {
+				"custom": {
+					"label": "Custom Moves"
+				}
+			}
+		}
+  }
 }

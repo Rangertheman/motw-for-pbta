@@ -8,47 +8,47 @@ export const configSheet = async () => {
         "success": {
             "start": 10,
             "end": null,
-            "label": "Success!"
+            "label": game.i18n.localize("motw.rollResults.success")
         },
         "partial": {
             "start": 7,
             "end": 9,
-            "label": "Partial success"
+            "label": game.i18n.localize("motw.rollResults.partial")
         },
         "failure": {
             "start": null,
             "end": 6,
-            "label": "Miss..."
+            "label": game.i18n.localize("motw.rollResults.failure")
         }
     },
     "actorTypes": {
         "character": {
             "stats": {
                 "cool": {
-                    "label": "Cool",
+                    "label": game.i18n.localize("motw.character.stats.cool"),
                     "value": 0
                 },
                 "tough": {
-                    "label": "Tough",
+                    "label": game.i18n.localize("motw.character.stats.tough"),
                     "value": 0
                 },
                 "charm": {
-                    "label": "Charm",
+                    "label": game.i18n.localize("motw.character.stats.charm"),
                     "value": 0
                 },
                 "sharp": {
-                    "label": "Sharp",
+                    "label": game.i18n.localize("motw.character.stats.sharp"),
                     "value": 0
                 },
                 "weird": {
-                    "label": "Weird",
+                    "label": game.i18n.localize("motw.character.stats.weird"),
                     "value": 0
                 }
             },
             "attrTop": {
                 "harm": {
-                    "label": "Harm",
-                    "description": "When you reach 4 or more, mark unstable.",
+                    "label": game.i18n.localize("motw.character.attrTop.harm.label"),
+                    "description": game.i18n.localize("motw.character.attrTop.harm.description"),
                     "customLabel": false,
                     "userLabel": false,
                     "type": "Clock",
@@ -65,17 +65,17 @@ export const configSheet = async () => {
                     ]
                 },
                 "unstable": {
-                    "label": "Unstable",
-                    "description": "(Unstable injuries will worsen as time passes)",
+                    "label": game.i18n.localize("motw.character.attrTop.unstable.label"),
+                    "description": game.i18n.localize("motw.character.attrTop.unstable.description"),
                     "customLabel": false,
                     "userLabel": false,
                     "type": "Checkbox",
-                    "checkboxLabel": "Unstable Injuries",
+                    "checkboxLabel": game.i18n.localize("motw.character.attrTop.unstable.checkboxLabel"),
                     "value": false
                 },
                 "luck": {
-                    "label": "Luck",
-                    "description": "Mark luck to change a roll to 12 or avoid all harm.",
+                    "label": game.i18n.localize("motw.character.attrTop.luck.label"),
+                    "description": game.i18n.localize("motw.character.attrTop.luck.description"),
                     "customLabel": false,
                     "userLabel": false,
                     "type": "Clock",
@@ -92,8 +92,8 @@ export const configSheet = async () => {
                     ]
                 },
                 "xp": {
-                    "label": "Experience",
-                    "description": "When you roll a miss, or when a move says to, mark Xp.",
+                    "label": game.i18n.localize("motw.character.attrTop.xp.label"),
+                    "description": game.i18n.localize("motw.character.attrTop.xp.description"),
                     "customLabel": false,
                     "userLabel": false,
                     "type": "Xp",
@@ -110,15 +110,15 @@ export const configSheet = async () => {
             },
             "attrLeft": {
                 "armour": {
-                    "label": "Armour",
-                    "description": "Armour reduces harm suffered by the armour rating.",
+                    "label": game.i18n.localize("motw.character.attrLeft.armour.label"),
+                    "description": game.i18n.localize("motw.character.attrLeft.armour.description"),
                     "customLabel": false,
                     "userLabel": false,
                     "type": "Number",
                     "value": 0
                 },
                 "luckspecial": {
-                    "label": "Luck Special",
+                    "label": game.i18n.localize("motw.character.attrLeft.luckspecial.label"),
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -126,7 +126,7 @@ export const configSheet = async () => {
                     "value": ""
                 },
                 "look": {
-                    "label": "Look",
+                    "label": game.i18n.localize("motw.character.attrLeft.look.label"),
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -134,7 +134,7 @@ export const configSheet = async () => {
                     "value": ""
                 },
                 "improvements": {
-                    "label": "Improvements",
+                    "label": game.i18n.localize("motw.character.attrLeft.improvements.label"),
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -142,7 +142,7 @@ export const configSheet = async () => {
                     "value": ""
                 },
                 "advancedimprovements": {
-                    "label": "Advanced Improvements",
+                    "label": game.i18n.localize("motw.character.attrLeft.advancedimprovements.label"),
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -152,29 +152,29 @@ export const configSheet = async () => {
             },
             "moveTypes": {
                 "basic": {
-                    "label": "Basic Moves",
+                    "label": game.i18n.localize("motw.character.moveTypes.basic.label"),
                     "moves": []
                 },
                 "class": {
-                    "label": "Playbook Moves",
+                    "label": game.i18n.localize("motw.character.moveTypes.class.label"),
                     "moves": []
                 }
             },
             "equipmentTypes": {
                 "gear": {
-                    "label": "Gear",
+                    "label": game.i18n.localize("motw.character.equipmentTypes.gear.label"),
                     "moves": []
                 },
                 "weapon": {
-                    "label": "Weapons",
+                    "label": game.i18n.localize("motw.character.equipmentTypes.weapon.label"),
                     "moves": []
                 },
                 "transport": {
-                    "label": "Transport",
+                    "label": game.i18n.localize("motw.character.equipmentTypes.transport.label"),
                     "moves": []
                 },
                 "armour": {
-                    "label": "Armour",
+                    "label": game.i18n.localize("motw.character.equipmentTypes.armour.label"),
                     "moves": []
                 }
             }
@@ -182,7 +182,7 @@ export const configSheet = async () => {
         "npc": {
             "attrTop": {
                 "harm": {
-                    "label": "Harm Capacity",
+                    "label": game.i18n.localize("motw.npc.attrTop.harm.label"),
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -191,7 +191,7 @@ export const configSheet = async () => {
                     "max": 0
                 },
                 "armour": {
-                    "label": "Armour",
+                    "label": game.i18n.localize("motw.npc.attrTop.armour.label"),
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -199,7 +199,7 @@ export const configSheet = async () => {
                     "value": 0
                 },
                 "type": {
-                    "label": "NPC Type",
+                    "label": game.i18n.localize("motw.npc.attrTop.type.label"),
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -207,19 +207,19 @@ export const configSheet = async () => {
                     "condition": false,
                     "options": {
                         "0": {
-                            "label": "Monster",
+                            "label": game.i18n.localize("motw.npc.attrTop.type.option.monster"),
                             "value": false
                         },
                         "1": {
-                            "label": "Minion",
+                            "label": game.i18n.localize("motw.npc.attrTop.type.option.minion"),
                             "value": false
                         },
                         "2": {
-                            "label": "Bystander",
+                            "label": game.i18n.localize("motw.npc.attrTop.type.option.bystander"),
                             "value": false
                         },
                         "3": {
-                            "label": "Location",
+                            "label": game.i18n.localize("motw.npc.attrTop.type.option.location"),
                             "value": false
                         }
                     }
@@ -227,7 +227,7 @@ export const configSheet = async () => {
             },
             "attrLeft": {
                 "powers": {
-                    "label": "Drive",
+                    "label": game.i18n.localize("motw.npc.attrLeft.powers.label"),
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -235,7 +235,7 @@ export const configSheet = async () => {
                     "value": ""
                 },
                 "attacks": {
-                    "label": "Attacks",
+                    "label": game.i18n.localize("motw.npc.attrLeft.attacks.label"),
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -243,7 +243,7 @@ export const configSheet = async () => {
                     "value": ""
                 },
                 "weakness": {
-                    "label": "Weakness",
+                    "label": game.i18n.localize("motw.npc.attrLeft.weakness.label"),
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -251,7 +251,7 @@ export const configSheet = async () => {
                     "value": ""
                 },
                 "desc": {
-                    "label": "Description",
+                    "label": game.i18n.localize("motw.npc.attrLeft.desc.label"),
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -259,7 +259,7 @@ export const configSheet = async () => {
                     "value": ""
                 },
                 "motivation": {
-                    "label": "Motivation",
+                    "label": game.i18n.localize("motw.npc.attrLeft.motivation.label"),
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -269,7 +269,7 @@ export const configSheet = async () => {
             },
             "moveTypes": {
                 "custom": {
-                    "label": "Custom Moves",
+                    "label": game.i18n.localize("motw.npc.moveTypes.custom.label"),
                     "moves": []
                 }
             }
