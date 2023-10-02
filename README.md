@@ -1,8 +1,8 @@
 ## Description
 
-An add-on module for Asacolips' Powered by the Apocalypse (PbtA) system for Foundry VTT to add the Monster of the Week playbooks and moves. It will also configure the actor and NPC sheets for Monster of the Week.
+An add-on module for Asacolips' Powered by the Apocalypse (PbtA) system for Foundry VTT to add the Monster of the Week playbooks and moves. It will also configure the actor and NPC sheets for Monster of the Week. The Character Sheet is now available in French and Swedish.
 
-The module also includes playbooks and moves from Monster of the Week: Tome of Mysteries. 
+The module also includes playbooks from Monster of the Week: Tome of Mysteries, and MotW: Hardcover Edition, plus Special (Luck) Moves, More Flexible Investigations, and Alternative Weird Basic Moves.
 
 ## Installation
 
@@ -20,14 +20,22 @@ When removing this module from your game world, the settings in the "System Sett
 
 The following Foundry VTT game system must be installed: [Powered by the Apocalypse](https://gitlab.com/asacolips-projects/foundry-mods/pbta), by Asacolips.
 
-## Credits  
+## Credits
+ 
+* This module has been made possible with the kind and express permission of Michael Sands.
 
 * Monster of the Week is created by Michael Sands. Monster of the Week is copyrighted by Evil Hat Productions, LLC and Generic Games.
 * Tome of Mysteries text and artwork are copyright © 2018-2019 Michael Sands, Generic Games, Evil Hat Productions, LLC and their respective creators.
+* Monster of the Week: Codex of Worlds text and artwork are copyright © 2023 Michael Sands, Generic Games, Evil Hat Productions LLC, and their respective creators.
 
-* This module has been made possible with the kind and express permission of Michael Sands.
-* Additional credits for Tome of Mysteries: The Gumshoe (Mark Tygart), The Hex (Bruno Dias), The Pararomantic (Michał Werder), The Searcher (Michael Sands), Weird Moves and Flexible Investigations (Michael Sands).
 * The Powered by the Apocalypse system for Foundry VTT is created and maintained by Asacolips.
+* French localization is done by Alexandre SANIGOU. Thank you!
+
+## Additional credits
+
+* For Tome of Mysteries [ToM]: The Gumshoe (Mark Tygart), The Hex (Bruno Dias), The Pararomantic (Michał Werder), The Searcher (Michael Sands).
+* For Monster of the Week Hardcover Edition [HE]: The Snoop (Michael Sands), The Spooktacular (Michael Sands).
+* For Codex of Worlds [CoW]: Marek Golonka (Co-author).
 
 ## Licensing
 
