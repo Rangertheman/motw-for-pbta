@@ -1,0 +1,129 @@
+{
+  "motw": {
+    "Settings": {
+      "Title": "Überschreibe selektierte Einstellung",
+      "Hint": "Das 'Monster of the Week' Modul versteckt automatisch alle PbtA Sonderfunktion (formula, forward, ongoing, roll mode). Wenn du es selbst selektieren möchtest, wähle diese Option ab."
+    },
+    "rollResults": {
+			"success": "Voller Erfolg!",
+			"partial": "Erfolg mit negativen Konsequenzen",
+			"failure": "Fehlwurf..."
+    },
+    "character": {
+      "stats": {
+        "cool": "Cool",
+        "tough": "Tough",
+        "charm": "Charm",
+        "sharp": "Sharp",
+        "weird": "Weird"
+      },
+			"attrTop": {
+				"harm": {
+					"label": "Verletzungen",
+					"description": "Wenn du 4 oder mehr erreicht hast, markiere instabil."
+				},
+				"unstable": {
+					"label": "Instabil",
+					"description": "(Instabile Verletzungen werden schlimmer je mehr Zeit vergangen ist.)",
+					"checkboxLabel": "Instabile Verletzungen"
+				},
+				"luck": {
+					"label": "Glück",
+					"description": "Markiere Glück, um einen Wurf auf 12 zu setzen, oder um allen Schaden einer Verletzung abzuwenden."
+				},
+				"xp": {
+					"label": "Erfahrung",
+					"description": "Wenn du einen Fehlwurf würfelst, oder wenn ein Spielzug es dir sagt, markiere einen Erfahrungspunkt."
+				}
+			},
+			"attrLeft": {
+				"armour": {
+					"label": "Rüstung",
+					"description": "Rüstung reduziert den Schaden um den angegebenen Wert."
+				},
+				"luckspecial": {
+					"label": "Besonderheit"
+				},
+				"look": {
+					"label": "Aussehen"
+				},
+				"improvements": {
+					"label": "Verbesserungen"
+				},
+				"advancedimprovements": {
+					"label": "Erweiterte Verbesserung"
+				}
+			},
+			"moveTypes": {
+				"basic": {
+					"label": "Basis-Moves"
+				},
+				"class": {
+					"label": "Playbook Moves"
+				}
+			},
+			"equipmentTypes": {
+				"gear": {
+					"label": "Ausrüstung"
+				},
+				"weapon": {
+					"label": "Waffen"
+				},
+				"transport": {
+					"label": "Transportmittel"
+				},
+				"armour": {
+					"label": "Rüstung"
+				}
+			}
+    },
+		"npc": {		
+			"attrTop": {
+				"harm": {
+					"label": "Harm Grenze"
+				},
+				"armour": {
+					"label": "NPC Rüstung"
+				},
+				"type": {
+					"label": "NPC Typ",
+					"option": {
+						"monster": "Monster",
+						"minion": "Lakaien",
+						"bystander": "Nebenfiguren",
+						"location": "Umgebung"
+					}
+				}
+			},
+			"attrLeft": {
+				"powers": {
+					"label": "Motivation"
+				},
+				"attacks": {
+					"label": "Attacken"
+				},
+				"weakness": {
+					"label": "Schwäche"
+				},
+				"desc": {
+					"label": "Beschreibung"
+				},
+				"motivation": {
+					"label": "Motivation"
+				}
+			},
+			"moveTypes": {
+				"custom": {
+					"label": "Custom Moves"
+				}
+			}
+		}
+  },
+  "PBTA":{
+	 "Description":"Beschreibung",
+	 "Moves":"Spielzüge",
+	 "Equipment":"Ausrüstung",
+	 "Biography": "Biografie",
+	 "Playbook": "Spielbuch"
+  }
+}
