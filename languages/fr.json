@@ -118,5 +118,12 @@
 				}
 			}
 		}
+  },
+  "PBTA":{
+	 "Description":"Description",
+	 "Moves":"Manoeuvres",
+	 "Equipment":"Equipement",
+	 "Biography": "Biographie",
+	 "Playbook": "Playbook"
   }
 }

@@ -42,7 +42,7 @@
 					"description": "Armour reduces harm suffered by the armour rating."
 				},
 				"luckspecial": {
-					"label": "Effet Special Chance"
+					"label": "Luck Special"
 				},
 				"look": {
 					"label": "Look"
@@ -118,5 +118,12 @@
 				}
 			}
 		}
+  },
+  "PBTA":{
+	 "Description":"Description",
+	 "Moves":"Moves",
+	 "Equipment":"Equipment",
+	 "Biography": "Biography",
+	 "Playbook": "Playbook"
   }
 }
