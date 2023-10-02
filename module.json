@@ -45,7 +45,15 @@
          "flags":{
             
          }
-      }
+      },
+      {
+        "lang":"fr",
+        "name":"Français (French)",
+        "path":"./languages/fr.json",
+        "flags":{
+           
+        }
+     }
    ],
    "packs":[
       {
