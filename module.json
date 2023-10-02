@@ -53,6 +53,14 @@
         "flags":{
            
         }
+     },
+     {
+        "lang":"sv",
+        "name":"Svenska",
+        "path":"./languages/sv.json",
+        "flags":{
+           
+        }
      }
    ],
    "packs":[
