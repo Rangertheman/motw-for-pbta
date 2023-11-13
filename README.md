@@ -29,7 +29,7 @@ The following Foundry VTT game system must be installed: [Powered by the Apocaly
 * Monster of the Week: Codex of Worlds text and artwork are copyright © 2023 Michael Sands, Generic Games, Evil Hat Productions LLC, and their respective creators.
 
 * The Powered by the Apocalypse system for Foundry VTT is created and maintained by Asacolips.
-* French tanslation by TooPick (Alexandre SANIGOU). German translation by benjin and HAL325- Thank you all!
+* French tanslation by TooPick (Alexandre SANIGOU). German translation by benjin and HAL325. Brazlilian Portugese translation by mclemente. Thank you all!
 
 ## Additional credits
 
