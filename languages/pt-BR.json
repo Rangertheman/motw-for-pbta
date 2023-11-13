@@ -1,0 +1,129 @@
+{
+	"motw": {
+		"Settings": {
+			"Title": "Substituir Seleções de Configurações",
+			"Hint": "Este módulo automaticamente esconde todas as opções de ficha PbtA (fórmula, adiante, constante, modo de rolagem). Se você quer fazer suas próprias seleções, desmarque esta opção."
+		},
+		"rollResults": {
+			"success": "Successo!",
+			"partial": "Successo parcial",
+			"failure": "Falha..."
+		},
+		"character": {
+			"stats": {
+				"cool": "Firmeza",
+				"tough": "Braveza",
+				"charm": "Sutileza",
+				"sharp": "Esperteza",
+				"weird": "Estranheza"
+			},
+			"attrTop": {
+				"harm": {
+					"label": "Dano",
+					"description": "Quando chegar a 4 ou mais, marque \"Instável\"."
+				},
+				"unstable": {
+					"label": "Instável",
+					"description": "(Ferimentos instáveis irão piorar com o tempo)",
+					"checkboxLabel": "Ferimentos Instáveis"
+				},
+				"luck": {
+					"label": "Sorte",
+					"description": "Marque sorte para mudar um resultado para 12 ou evitar todo dano."
+				},
+				"xp": {
+					"label": "Experiência",
+					"description": "Quando você rola uma falha ou quando um movimento disser, marque XP."
+				}
+			},
+			"attrLeft": {
+				"armour": {
+					"label": "Armadura",
+					"description": "Armadura reduz o dano sofrido pelo número de pontos de classificação."
+				},
+				"luckspecial": {
+					"label": "Sorte Especial"
+				},
+				"look": {
+					"label": "Visual"
+				},
+				"improvements": {
+					"label": "Melhorias"
+				},
+				"advancedimprovements": {
+					"label": "Melhorias Avançadas"
+				}
+			},
+			"moveTypes": {
+				"basic": {
+					"label": "Movimentos Básicos"
+				},
+				"class": {
+					"label": "Movimentos de Cartilha"
+				}
+			},
+			"equipmentTypes": {
+				"gear": {
+					"label": "Equipamento"
+				},
+				"weapon": {
+					"label": "Armas"
+				},
+				"transport": {
+					"label": "Transporte"
+				},
+				"armour": {
+					"label": "Armadura"
+				}
+			}
+		},
+		"npc": {
+			"attrTop": {
+				"harm": {
+					"label": "Capacidade de Dano"
+				},
+				"armour": {
+					"label": "Armadura"
+				},
+				"type": {
+					"label": "Tipo de Ameaça",
+					"option": {
+						"monster": "Monstro",
+						"minion": "Lacaio",
+						"bystander": "Espectador",
+						"location": "Local"
+					}
+				}
+			},
+			"attrLeft": {
+				"powers": {
+					"label": "Motivações"
+				},
+				"attacks": {
+					"label": "Ataques"
+				},
+				"weakness": {
+					"label": "Fraquezas"
+				},
+				"desc": {
+					"label": "Descrição"
+				},
+				"motivation": {
+					"label": "Motivações"
+				}
+			},
+			"moveTypes": {
+				"custom": {
+					"label": "Movimentos Personalizados"
+				}
+			}
+		}
+	},
+	"PBTA": {
+		"Description": "Descrição",
+		"Moves": "Movimentos",
+		"Equipment": "Equipamento",
+		"Biography": "Biografia",
+		"Playbook": "Cartilha"
+	}
+}
