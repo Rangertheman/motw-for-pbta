@@ -1,0 +1,131 @@
+{
+  "motw": {
+    "Settings": {
+      "Title": "Ersätt förinställda alternativ",
+      "Hint": "Monster of the Week-modulen döljer automatiskt alla PbtA-alternativ (formula, forward, ongoing, roll mode) på rollformuläret. Om du vill göra ditt eget urval, vänligen bocka ur det här alternativet."
+    },
+    "rollResults": {
+			"success": "Lyckat!",
+			"partial": "Delvis lyckat",
+			"failure": "Misslyckat..."
+    },
+    "character": {
+      "stats": {
+        "cool": "Cool",
+        "tough": "Stadig",
+        "charm": "Charmig",
+        "sharp": "Klipsk",
+        "weird": "Underlig"
+      },
+			"attrTop": {
+				"harm": {
+					"label": "Skada",
+					"description": "När du når 4 eller mer, bocka för 'Instabil'."
+				},
+				"unstable": {
+					"label": "Instabil",
+					"description": "(Instabila skador blir alltid värre över tid.)",
+					"checkboxLabel": "Instabila skador"
+				},
+				"luck": {
+					"label": "Tur",
+					"description": "Kryssa i Tur för att ändra ett slag till 12, eller undvika all skada."
+				},
+				"xp": {
+					"label": "Erfarenhet",
+					"description": "Lägg till XP vid ett misslyckat slag, eller när ett drag anger det."
+				}
+			},
+			"attrLeft": {
+				"armour": {
+					"label": "Skydd",
+					"description": "Skydd minskar skador med lika mycket som skyddsvärdet."
+				},
+				"luckspecial": {
+					"label": "Specialdrag för Tur"
+				},
+				"look": {
+					"label": "Utseende"
+				},
+				"improvements": {
+					"label": "Uppgraderingar"
+				},
+				"advancedimprovements": {
+					"label": "Avancerade uppgraderingar"
+				}
+			},
+			"moveTypes": {
+				"basic": {
+					"label": "Grunddrag"
+				},
+				"class": {
+					"label": "Spelboksdrag"
+				}
+			},
+			"equipmentTypes": {
+				"gear": {
+					"label": "Prylar"
+				},
+				"weapon": {
+					"label": "Vapen"
+				},
+				"transport": {
+					"label": "Transportmedel"
+				},
+				"armour": {
+					"label": "Skydd"
+				}
+			}
+    },
+		"npc": {		
+			"attrTop": {
+				"harm": {
+					"label": "Skadekapacitet"
+				},
+				"armour": {
+					"label": "Skydd"
+				},
+				"type": {
+					"label": "NPC-typ",
+					"option": {
+						"monster": "Monster",
+						"minion": "Underhuggare",
+						"bystander": "Åskådare",
+						"location": "Plats"
+					}
+				}
+			},
+			"attrLeft": {
+				"powers": {
+					"label": "Drivkraft"
+				},
+				"attacks": {
+					"label": "Attacker"
+				},
+				"weakness": {
+					"label": "Svaghet"
+				},
+				"desc": {
+					"label": "Beskrivning"
+				},
+				"motivation": {
+					"label": "Motivation"
+				}
+			},
+			"moveTypes": {
+				"custom": {
+					"label": "Anpassade drag"
+				}
+			}
+		}
+  },
+  "PBTA":{
+	 "Description":"Beskrivning",
+	 "Moves":"Drag",
+	 "Equipment":"Utrustning",
+	 "Biography": "Biografi",
+	 "Playbook": "Spelbok",
+	 "Other": "Annat"
+  },
+  "PBTA_OTHER": "Annat"
+}
