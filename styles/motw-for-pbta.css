@@ -94,6 +94,12 @@
   padding: 0 0 1px;
 }
 
+.pbta.sheet .sheet-attributes .cell--stats .stat .stat-icon {
+  font-size: 32px;
+  height: 40px;
+  width: 40px;
+}
+
 @keyframes swing
 {
     15%
@@ -178,7 +184,7 @@ span.attr-icon.attr-rollable.rollable:hover .fa-dice-d6 {
   }
 }
 
-span.stat-icon.stat-rollable.rollable:hover .fa-dice-d6 {
+.stat-rollable.rollable span.stat-icon:hover .fa-dice-d6 {
   animation: rollDice 3s linear infinite;
 }
 
