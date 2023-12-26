@@ -17,7 +17,7 @@
   border-color: #333333;
 }
 
-.pbta.sheet .sheet-attributes .cell--stats .stat :is(.cell__title, .stat-icon), .pbta.sheet .tabs .item {
+.pbta.sheet .sheet-attributes .cell--stats .stat :is(.cell__title, .stat-icon) {
   text-shadow: 0 0 5px #063c4f;
 }
 
@@ -48,10 +48,16 @@
   border-color: white;
 }
 
-.pbta.sheet .tabs .item.active {
+.pbta.sheet .tabs .item {
   background: white;
   color: black;
   border-bottom: 2px solid black;
+}
+
+.pbta.sheet .tabs .item.active {
+  background: #333333;
+  font-weight: normal;
+  text-shadow: 0 0 5px #063c4f;
 }
 
 ::-webkit-scrollbar-thumb {
