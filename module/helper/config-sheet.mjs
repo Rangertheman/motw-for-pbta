@@ -164,11 +164,6 @@ export const configSheet = async () => {
                 "altMove": {
                     "label": game.i18n.localize("motw.character.moveTypes.altMove.label"),
                     "moves": []
-                },
-                "team": {
-                    "label": game.i18n.localize("motw.character.moveTypes.team.label"),
-                    "moves": [],
-                    "playbook": true
                 }
             },
             "equipmentTypes": {

@@ -63,9 +63,6 @@
 				},
 				"altMove": {
 					"label": "Alternative Moves"
-				},
-				"team": {
-					"label": "Team Moves"
 				}
 			},
 			"equipmentTypes": {

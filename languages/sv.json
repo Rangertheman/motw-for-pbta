@@ -63,9 +63,6 @@
 				},
 				"altMove": {
 					"label": "Alternativa drag"
-				},
-				"team": {
-					"label": "Teamdrag"
 				}
 			},
 			"equipmentTypes": {
