@@ -61,8 +61,8 @@
 				"class": {
 					"label": "Spelboksdrag"
 				},
-				"altWeird": {
-					"label": "Alternativa Grunddrag för Underlig"
+				"altMove": {
+					"label": "Alternativa drag"
 				},
 				"team": {
 					"label": "Teamdrag"

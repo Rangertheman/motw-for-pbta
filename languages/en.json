@@ -61,8 +61,8 @@
 				"class": {
 					"label": "Playbook Moves"
 				},
-				"altWeird": {
-					"label": "Alternative Weird Basic Moves"
+				"altMove": {
+					"label": "Alternative Moves"
 				},
 				"team": {
 					"label": "Team Moves"
