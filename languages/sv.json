@@ -60,6 +60,12 @@
 				},
 				"class": {
 					"label": "Spelboksdrag"
+				},
+				"altWeird": {
+					"label": "Alternativa Grunddrag för Underlig"
+				},
+				"team": {
+					"label": "Teamdrag"
 				}
 			},
 			"equipmentTypes": {

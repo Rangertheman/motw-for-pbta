@@ -60,6 +60,12 @@
 				},
 				"class": {
 					"label": "Playbook Moves"
+				},
+				"altWeird": {
+					"label": "Alternative Weird Basic Moves"
+				},
+				"team": {
+					"label": "Team Moves"
 				}
 			},
 			"equipmentTypes": {

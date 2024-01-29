@@ -153,11 +153,22 @@ export const configSheet = async () => {
             "moveTypes": {
                 "basic": {
                     "label": game.i18n.localize("motw.character.moveTypes.basic.label"),
-                    "moves": []
+                    "moves": [],
+                    "creation": true
                 },
                 "class": {
                     "label": game.i18n.localize("motw.character.moveTypes.class.label"),
+                    "moves": [],
+                    "playbook": true
+                },
+                "altWeird": {
+                    "label": game.i18n.localize("motw.character.moveTypes.altWeird.label"),
                     "moves": []
+                },
+                "team": {
+                    "label": game.i18n.localize("motw.character.moveTypes.team.label"),
+                    "moves": [],
+                    "playbook": true
                 }
             },
             "equipmentTypes": {
