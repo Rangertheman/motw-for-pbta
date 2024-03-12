@@ -210,6 +210,11 @@ span.attr-icon.attr-rollable.rollable:hover .fa-dice-d6 {
   cursor: pointer;
 }
 
+.pbta.sheet :is(.cell--attr-type) .cell__checkboxes {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .pbta.sheet .cell__title button, .pbta.sheet .cell__subtitle button {
   color: #8e2231;
   border: 1px solid #8e2231;
