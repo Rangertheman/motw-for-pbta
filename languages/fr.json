@@ -1,129 +1,132 @@
 {
   "motw": {
     "Settings": {
-      "Title": "Remplacer les sélections de paramètres",
-      "Hint": "Le module Monster Of The Week masque automatiquement toutes les options de la feuille PbtA (formule, avant, en cours, mode de jets). Si vous souhaitez faire vos propres sélections, veuillez cocher cette option."
+      "Title": "Surcharger la sélection de paramètres système",
+      "Hint": "Le module Monster Of The Week masque automatiquement toutes les options de la feuille PbtA (formule, à suive, continu, mode de jet). Si vous souhaitez faire vos propres sélections, veuillez décocher cette option."
     },
     "rollResults": {
-			"success": "Succès!",
-			"partial": "Succès partiel",
-			"failure": "Échec..."
+      "success": "Succès !",
+      "partial": "Succès partiel",
+      "failure": "Échec..."
     },
     "character": {
-			"stats": {
-				"cool": "Cool",
-				"tough": "Coriace",
-				"charm": "Charme",
-				"sharp": "Futé",
-				"weird": "Bizarre"
-			},    
-			"attrTop": {
-				"harm": {
-					"label": "Degats",
-					"description": "Lorsque vous atteignez 4 ou plus, cochez instable."
-				},
-				"unstable": {
-					"label": "Instable",
-					"description": "(Les blessures instables s’aggravent si rien n’est fait.)",
-					"checkboxLabel": "Blessures instables"
-				},
-				"luck": {
-					"label": "Chance",
-					"description": "Cochez une case chance pour changer un jet en 12 ou éviter tout dégâts."
-				},
-				"xp": {
-					"label": "Experience",
-					"description": "Lorsque vous obtenez un échec ou lorsqu'un mouvement vous le demande, cochez une case Xp."
-				}
-			},
-			"attrLeft": {
-				"armour": {
-					"label": "Armure",
-					"description": "L'armure réduit les dégâts subis par la valeur d'armure."
-				},
-				"luckspecial": {
-					"label": "Effet Special Chance"
-				},
-				"look": {
-					"label": "Apparence"
-				},
-				"improvements": {
-					"label": "Ameliorations"
-				},
-				"advancedimprovements": {
-					"label": "Ameliorations avancees"
-				}
-			},
-			"moveTypes": {
-				"basic": {
-					"label": "Manoeuvres de base"
-				},
-				"class": {
-					"label": "Manoeuvres du livret"
-				}
-			},
-			"equipmentTypes": {
-				"gear": {
-					"label": "Equipement"
-				},
-				"weapon": {
-					"label": "Armes"
-				},
-				"transport": {
-					"label": "Moyen de transport"
-				},
-				"armour": {
-					"label": "Armure"
-				}
-			}
+      "stats": {
+        "cool": "Cool",
+        "tough": "Coriace",
+        "charm": "Charme",
+        "sharp": "Futé",
+        "weird": "Bizarre"
+      },
+      "attrTop": {
+        "harm": {
+          "label": "Dégâts",
+          "description": "Lorsque vous atteignez 4 ou plus, cochez instable."
+        },
+        "unstable": {
+          "label": "Instable",
+          "description": "(Les blessures instables s’aggravent si rien n’est fait.)",
+          "checkboxLabel": "Blessures instables"
+        },
+        "luck": {
+          "label": "Chance",
+          "description": "Cochez une case chance pour changer un jet en 12 ou éviter tout dégâts."
+        },
+        "xp": {
+          "label": "Expérience",
+          "description": "Lorsque vous obtenez un échec ou lorsqu’une manœuvre vous le demande, cochez une case XP."
+        }
+      },
+      "attrLeft": {
+        "armour": {
+          "label": "Armure",
+          "description": "L’armure réduit les dégâts subis par la valeur d’armure."
+        },
+        "luckspecial": {
+          "label": "Effet Spécial Chance"
+        },
+        "look": {
+          "label": "Apparence"
+        },
+        "improvements": {
+          "label": "Améliorations"
+        },
+        "advancedimprovements": {
+          "label": "Améliorations avancées"
+        }
+      },
+      "moveTypes": {
+        "basic": {
+          "label": "Manœuvres de base"
+        },
+        "class": {
+          "label": "Manœuvres du livret"
+        },
+        "altMove": {
+          "label": "Manœuvres alternatives"
+        }
+      },
+      "equipmentTypes": {
+        "gear": {
+          "label": "Équipement"
+        },
+        "weapon": {
+          "label": "Armes"
+        },
+        "transport": {
+          "label": "Moyen de transport"
+        },
+        "armour": {
+          "label": "Armure"
+        }
+      }
     },
-		"npc": {
-			"attrTop": {
-				"harm": {
-					"label": "Capacite de degats"
-				},
-				"armour": {
-					"label": "Armure"
-				},
-				"type": {
-					"label": "Type de PNJ",
-					"option": {
-						"monster": "Monstre",
-						"minion": "Sbire",
-						"bystander": "Figurant",
-						"location": "Lieu"
-					}
-				}
-			},
-			"attrLeft": {
-				"powers": {
-					"label": "Pouvoirs"
-				},
-				"attacks": {
-					"label": "Attaques"
-				},
-				"weakness": {
-					"label": "Faiblesse"
-				},
-				"desc": {
-					"label": "Description"
-				},
-				"motivation": {
-					"label": "Motivation"
-				}
-			},
-			"moveTypes": {
-				"custom": {
-					"label": "Manoeuvres Personnalisees"
-				}
-			}
-		}
+    "npc": {
+      "attrTop": {
+        "harm": {
+          "label": "Capacité de dégâts"
+        },
+        "armour": {
+          "label": "Armure"
+        },
+        "type": {
+          "label": "Type de PNJ",
+          "option": {
+            "monster": "Monstre",
+            "minion": "Sbire",
+            "bystander": "Figurant",
+            "location": "Lieu"
+          }
+        }
+      },
+      "attrLeft": {
+        "powers": {
+          "label": "Pouvoirs"
+        },
+        "attacks": {
+          "label": "Attaques"
+        },
+        "weakness": {
+          "label": "Faiblesse"
+        },
+        "desc": {
+          "label": "Description"
+        },
+        "motivation": {
+          "label": "Motivation"
+        }
+      },
+      "moveTypes": {
+        "custom": {
+          "label": "Manœuvres Personnalisées"
+        }
+      }
+    }
   },
-  "PBTA":{
-	 "Description":"Description",
-	 "Moves":"Manoeuvres",
-	 "Equipment":"Equipement",
-	 "Biography": "Biographie",
-	 "Playbook": "Playbook"
+  "PBTA": {
+    "Description": "Description",
+    "Moves": "Manœuvres",
+    "Equipment": "Équipement",
+    "Biography": "Biographie",
+    "Playbook": "Livret"
   }
 }
