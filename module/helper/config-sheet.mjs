@@ -291,6 +291,7 @@ export const configSheet = async () => {
       await game.settings.set('pbta', 'hideRollFormula', true);
       await game.settings.set('pbta', 'hideForward', true);
       await game.settings.set('pbta', 'hideOngoing', true);
+      await game.settings.set('pbta', 'hideHold', true);
       await game.settings.set('pbta', 'hideRollMode', true);
       await game.settings.set('pbta', 'hideUses', true);
    }
