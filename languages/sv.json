@@ -2,7 +2,7 @@
   "motw": {
     "Settings": {
       "Title": "Ersätt förinställda alternativ",
-      "Hint": "Monster of the Week-modulen döljer automatiskt alla PbtA-alternativ (formula, forward, ongoing, roll mode) på rollformuläret. Om du vill göra ditt eget urval, vänligen bocka ur det här alternativet."
+      "Hint": "Monster of the Week-modulen döljer automatiskt alla PbtA-alternativ (formula, forward, ongoing, hold, roll mode) på rollformuläret. Om du vill göra ditt eget urval, vänligen bocka ur det här alternativet."
     },
     "rollResults": {
 			"success": "Lyckat!",

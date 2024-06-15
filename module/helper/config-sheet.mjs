@@ -45,12 +45,13 @@ export const configSheet = async () => {
                     "value": 0
                 }
             },
-            "attrTop": {
+            "attributes": {
                 "harm": {
                     "label": game.i18n.localize("motw.character.attrTop.harm.label"),
                     "description": game.i18n.localize("motw.character.attrTop.harm.description"),
                     "customLabel": false,
                     "userLabel": false,
+                    "position": "top",
                     "type": "Clock",
                     "value": 0,
                     "max": 7,
@@ -69,6 +70,7 @@ export const configSheet = async () => {
                     "description": game.i18n.localize("motw.character.attrTop.unstable.description"),
                     "customLabel": false,
                     "userLabel": false,
+                    "position": "top",
                     "type": "Checkbox",
                     "checkboxLabel": game.i18n.localize("motw.character.attrTop.unstable.checkboxLabel"),
                     "value": false
@@ -78,6 +80,7 @@ export const configSheet = async () => {
                     "description": game.i18n.localize("motw.character.attrTop.luck.description"),
                     "customLabel": false,
                     "userLabel": false,
+                    "position": "top",
                     "type": "Clock",
                     "value": 0,
                     "max": 7,
@@ -96,6 +99,7 @@ export const configSheet = async () => {
                     "description": game.i18n.localize("motw.character.attrTop.xp.description"),
                     "customLabel": false,
                     "userLabel": false,
+                    "position": "top",
                     "type": "Xp",
                     "value": 0,
                     "max": 5,
@@ -114,6 +118,7 @@ export const configSheet = async () => {
                     "description": game.i18n.localize("motw.character.attrLeft.armour.description"),
                     "customLabel": false,
                     "userLabel": false,
+                    "position": "left",
                     "type": "Number",
                     "value": 0
                 },
@@ -122,6 +127,7 @@ export const configSheet = async () => {
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
+                    "position": "left",
                     "type": "LongText",
                     "value": ""
                 },
@@ -130,6 +136,7 @@ export const configSheet = async () => {
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
+                    "position": "left",
                     "type": "LongText",
                     "value": ""
                 },
@@ -138,6 +145,7 @@ export const configSheet = async () => {
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
+                    "position": "left",
                     "type": "LongText",
                     "value": ""
                 },
@@ -146,6 +154,7 @@ export const configSheet = async () => {
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
+                    "position": "left",
                     "type": "LongText",
                     "value": ""
                 }
@@ -186,12 +195,13 @@ export const configSheet = async () => {
             }
         },
         "npc": {
-            "attrTop": {
+            "attributes": {
                 "harm": {
                     "label": game.i18n.localize("motw.npc.attrTop.harm.label"),
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
+                    "position": "top",
                     "type": "Resource",
                     "value": 0,
                     "max": 0
@@ -201,6 +211,7 @@ export const configSheet = async () => {
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
+                    "position": "top",
                     "type": "Number",
                     "value": 0
                 },
@@ -209,6 +220,7 @@ export const configSheet = async () => {
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
+                    "position": "top",
                     "type": "ListMany",
                     "condition": false,
                     "options": {
@@ -237,6 +249,7 @@ export const configSheet = async () => {
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
+                    "position": "left",
                     "type": "LongText",
                     "value": ""
                 },
@@ -245,6 +258,7 @@ export const configSheet = async () => {
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
+                    "position": "left",
                     "type": "LongText",
                     "value": ""
                 },
@@ -253,6 +267,7 @@ export const configSheet = async () => {
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
+                    "position": "left",
                     "type": "LongText",
                     "value": ""
                 },
@@ -261,6 +276,7 @@ export const configSheet = async () => {
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
+                    "position": "left",
                     "type": "LongText",
                     "value": ""
                 },
@@ -269,6 +285,7 @@ export const configSheet = async () => {
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
+                    "position": "left",
                     "type": "LongText",
                     "value": ""
                 }
